@@ -1,0 +1,155 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Oswald", sans-serif;
+}
+
+.caixa {
+    width: 100vw;
+    height: 100vh;
+}
+
+.caixa1 {
+    display: inline-block;
+    width: 60%;
+    margin-top: 20%;
+    padding-left: 136px;
+}
+
+.caixa2 {
+    display: inline-block;
+    background-color: #5d5d7d2d;
+    height: 100vh;
+    position: absolute;
+    width: 40%;
+}
+
+img {
+    width: 456px;
+    height: 561.95px;
+    position: relative;
+    top: 20%;
+    right: 20%;
+}
+
+h1 {
+    font-weight: 400px;
+    font-size: 70px;
+    font-weight: 80px;
+    color: #5d5d7d;
+  ;
+    
+}
+
+p {
+    font-weight: 400px;
+    font-size: 28px;
+    font-weight: 48px;
+    color: #5d5d7d9d;
+    margin: 15px 0;
+    width: 540px;
+  
+    
+}
+
+.botão {
+    width: 269px;
+    height: 62px;
+    color: #ffffff;
+    background: #9498eadc;
+    border-radius: 50px;
+    border: none;
+    font-weight: 400px;
+    font-size: 24px;
+    font-weight: 100%;
+    cursor: pointer;
+}
+
+.botão:hover {
+    opacity: 0.8;
+    font-size: 30px;
+}
+
+.botão:active {
+    opacity: 0.5;
+}
+
+a {
+    font-weight: 400px;
+    font-size: 28px;
+    font-weight: 100%;
+    color: #5d5d7d;
+    margin-right: 50px;
+    cursor: pointer;
+}
+
+a:nth-child(2) {
+    color: #5d5d7d77;
+}
+
+a:hover {
+     opacity: 0.8;
+    font-size: 34px;
+}
+
+a:active {
+    opacity: 0.5;
+}
+
+header {
+    margin: 24px 0 0px 57px;
+}
+
+@media screen and (max-width: 900px) {
+    .caixa1 {
+        width: 100%;
+        height: 50%;
+        padding: 0;
+        margin: 0;  
+   }
+
+   .caixa2 {
+    display: block;
+    height: auto;
+    width: 100%;
+    position: static;
+    padding: 40px;
+    
+   }
+
+   img {
+    position: static;
+    width: 90%;
+    height:auto;
+   
+   }
+   
+header {
+    display: none;
+
+}
+
+h1 {
+    font-weight: 400px;
+    font-size: 36px;
+    font-weight: auto;
+    margin: 58px 50px 0 50px;
+    text-align: center;
+}
+
+p{
+    width: auto;
+    margin: 15px 40px;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 24px;
+}
+
+.botão {
+    display: block;
+    margin: 0 auto;
+
+}
+
+}
