@@ -1,7 +1,7 @@
 <h1 align="center">Projeto Easy Shopping</h1>
 <br>
 <br>
-<h2>Esse foi um projeto q eu aprendi no <a href="https://www.devclub.com.br">Devi Club</a></h2>
+<h2>Esse foi um projeto que aprendi no <a href="https://www.devclub.com.br">Devi Club</a></h2>
 <br>
 <br>
 <h3>Nesse projeto foi utilizado as Tecnologias <br>
